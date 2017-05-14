@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.3;net45</TargetFrameworks>
+    <Version>1.1.0</Version>
+    <Authors>Declan Whelan (original code), stakx (fork)</Authors>
+    <Copyright>© Declan Whelan 2010 (original code), © 2017 stakx (fork)</Copyright>
+    <Description>Allows verifying whether method calls in a Moq setup are invoked in the correct order.</Description>
+    <Company />
+    <PackageLicenseUrl>https://github.com/stakx/Moq.Sequences/blob/master/LICENSE.md</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/stakx/Moq.Sequences</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/stakx/Moq.Sequences.git</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageReleaseNotes>Retargeted at .NET Standard 1.3 (or .NET Framework 4.5) and Moq >= 4.7.0, removed dependency on NUnit.</PackageReleaseNotes>
+    <PackageTags>moq mock .net45 netstandard1.3</PackageTags>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <FileVersion>1.1.0.0</FileVersion>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Moq" Version="4.7.0" />
+  </ItemGroup>
+
+</Project>

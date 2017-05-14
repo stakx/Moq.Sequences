@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Moq.Sequences", "Moq.Sequences\Moq.Sequences.csproj", "{09924001-C8F8-450D-84F8-661265DBE601}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "stakx.Moq.Sequences", "stakx.Moq.Sequences\stakx.Moq.Sequences.csproj", "{09924001-C8F8-450D-84F8-661265DBE601}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moq.Sequences.Tests", "Moq.Sequences.Tests\Moq.Sequences.Tests.csproj", "{031B8197-7B35-43B4-8077-850AD92407D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stakx.Moq.Sequences.Tests", "stakx.Moq.Sequences.Tests\stakx.Moq.Sequences.Tests.csproj", "{031B8197-7B35-43B4-8077-850AD92407D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
